@@ -4,11 +4,14 @@
 /node_modules
 /.pnp
 .pnp.*
+.idea
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+yarn.lock
+.next
 
 # testing
 /coverage

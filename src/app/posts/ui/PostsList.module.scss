@@ -1,0 +1,29 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+    max-width: 900px;
+
+    &>a {
+        cursor: pointer;
+        padding-bottom: 8px;
+        color: rgb(104, 4, 9);
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}
