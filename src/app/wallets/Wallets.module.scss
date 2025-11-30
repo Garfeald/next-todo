@@ -1,0 +1,51 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.connectors {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+
+    &>*:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+.connector {
+    display: flex;
+    flex-direction: column;
+
+    &>*:not(:last-child) {
+        margin-bottom: 8px;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+
+    &>button:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+.connectorInfo {
+    min-height: 28px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.connectorIcon {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    object-fit: contain;
+}
+
+.fallbackIcon {
+    font-size: 20px;
+}
